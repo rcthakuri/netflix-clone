@@ -1,0 +1,91 @@
+* {
+    color: white;
+    border: 0;
+}
+/* ------- REUSABLE COMPONENT -------------- */
+.red-button {
+    background-color: #e50914;
+}
+
+.homepage-header {
+    background-image: radial-gradient(rgba(1, 1, 1, 0.4), rgba(1,1,1,0.9)), url('../../assets/bulk/main-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.homepage-content {
+    margin: 0% 2%;
+    height: 100%;
+    position: relative;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+.header-top-right {
+    margin: 2%;
+    display: flex;
+}
+
+.language-select {
+   margin-right: 20px;
+   min-width: 200px;
+   color: black;
+   /* background: white; */
+}
+
+.sign-out-btn {
+    border: 0px;
+    border-radius: 2px;
+    font-size: 21px;
+    padding: 10px 25px;
+    margin-left: 20px;
+}
+
+.highlight-text {
+    display: flex;
+    font-size: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 75%;
+}
+
+.welcome-text {
+    font-size: 0.8em;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.bold-text {
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer-text {
+    font-size: 0.8em;
+    margin-bottom: 25px;;
+}
+
+.restart-membership-btn {
+    padding: 20px;   
+    font-size: 0.8em; 
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+

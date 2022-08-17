@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* NETFLIX RED COLOR: #e50914 */
+* {
+    box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: sans-serif;  font-weight: 100;}
