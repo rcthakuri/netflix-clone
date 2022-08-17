@@ -2,4 +2,8 @@
     .highlight-text {
         font-size: 30px;      
     }
+
+    .header-top-right {
+        margin: 25px;
+    }
 }
